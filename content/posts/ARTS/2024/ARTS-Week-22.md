@@ -2,8 +2,8 @@
 title = 'ARTS Week 22, 2024'
 date = 2024-06-02
 draft = false
-categories = ["ARTS"]
-tags = ["Docker", "Frontend"]
+categories = ['ARTS']
+tags = ['Docker', 'Frontend']
 +++
 ## 1.Algorithm
 
