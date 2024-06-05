@@ -5,17 +5,14 @@ draft = false
 categories = ["Linux"]
 tags = ["运维"]
 +++
-# SSH Tunnel
-
 出于安全考虑只能通过堡垒机SSH访问内网资源，无法直接访问内网的HTTP、数据库等服务
 
-环境拓扑如下：
+**环境拓扑如下：**
 
 {{< mermaid >}}
 flowchart TD
-	我的电脑 --SSH--> 堡垒机
-	堡垒机 --> 内网服务器["内网服务器\nHTTP(80)\nMySQL(3306)"]
-	
+  我的电脑 --SSH--> 堡垒机
+  堡垒机 --> 内网服务器["内网服务器\nHTTP(80)\nMySQL(3306)"]
 {{< /mermaid >}}
 
 需要实现的目标是我的电脑能够访问内网服务器的HTTP和MySQL
@@ -26,7 +23,7 @@ flowchart TD
 ssh -f -N -L localhost:8080:192.168.100.2:80 user@10.0.0.1
 ```
 
-### 命令解释：
+### 命令解释
 
 localhost：我电脑的监控地址
 
@@ -37,8 +34,6 @@ localhost：我电脑的监控地址
 80：内网服务器HTTP对应的端口
 
 user@10.0.0.1： 堡垒机对应的用户名、IP
-
-
 
 ### ssh options 解释
 
