@@ -737,7 +737,7 @@ class Theme {
                     this._resizeTimeout = null;
                     for (let event of this.resizeEventSet) event();
                     this.initToc();
-                    this.initMermaid();
+                    // this.initMermaid();
                     this.initSearch();
                 }, 100);
             }
@@ -765,7 +765,7 @@ class Theme {
             this.initTable();
             this.initHeaderLink();
             this.initMath();
-            this.initMermaid();
+            // this.initMermaid();
             this.initEcharts();
             this.initTypeit();
             this.initMapbox();

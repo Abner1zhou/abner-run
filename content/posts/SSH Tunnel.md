@@ -4,16 +4,17 @@ date = 2024-06-05
 draft = false
 categories = ["Linux"]
 tags = ["运维"]
+mermaid = true
 +++
 出于安全考虑只能通过堡垒机SSH访问内网资源，无法直接访问内网的HTTP、数据库等服务
 
 **环境拓扑如下：**
 
-{{< mermaid >}}
+```mermaid
 flowchart TD
   我的电脑 --SSH--> 堡垒机
   堡垒机 --> 内网服务器["内网服务器\nHTTP(80)\nMySQL(3306)"]
-{{< /mermaid >}}
+```
 
 需要实现的目标是我的电脑能够访问内网服务器的HTTP和MySQL
 
