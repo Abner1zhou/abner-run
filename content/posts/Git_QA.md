@@ -4,7 +4,7 @@ date = 2024-06-05
 draft = false
 categories = ["工具教材"]
 tags = ["Git", "VCS"]
-
+author=  "Abner Zhou"
 +++
 
 ## Git提交到仓库以后，如何撤销或修改

@@ -5,6 +5,7 @@ draft = false
 categories = ["Linux"]
 tags = ["运维"]
 mermaid = true
+author=  "Abner Zhou"
 +++
 出于安全考虑只能通过堡垒机SSH访问内网资源，无法直接访问内网的HTTP、数据库等服务
 
