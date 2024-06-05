@@ -765,7 +765,6 @@ class Theme {
             this.initTable();
             this.initHeaderLink();
             this.initMath();
-            // this.initMermaid();
             this.initEcharts();
             this.initTypeit();
             this.initMapbox();
