@@ -1,8 +1,7 @@
 baseURL = "https://abner.run/"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
-#theme = "LoveIt"
-theme = "DoIt"
+theme = "LoveIt"
 
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "zh-CN"
