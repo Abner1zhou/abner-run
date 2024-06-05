@@ -9,17 +9,10 @@ tags = ["运维"]
 
 **环境拓扑如下：**
 
-```mermaid
+{{< mermaid >}}
 flowchart TD
   我的电脑 --SSH--> 堡垒机
   堡垒机 --> 内网服务器["内网服务器\nHTTP(80)\nMySQL(3306)"]
-```
-
-{{< mermaid >}}graph LR;
-    A[Hard edge] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
 {{< /mermaid >}}
 
 需要实现的目标是我的电脑能够访问内网服务器的HTTP和MySQL
