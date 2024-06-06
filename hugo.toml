@@ -10,6 +10,13 @@ languageName = "简体中文"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 
+# Author config
+# 作者配置
+[author]
+  name = "Abner Zhou"
+  email = "abner1zhou@gmail.com"
+  link = "https://github.com/Abner1zhou"
+
 # 菜单配置
 [menu]
   [[menu.main]]
