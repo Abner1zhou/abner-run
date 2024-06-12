@@ -1,7 +1,7 @@
 +++
 title = 'PostgreSQL开发规范'
 date = 2024-06-12T10:01:10+08:00
-draft = true
+draft = false
 categories = ["运维"]
 tags = ["数据库"]
 author=  "Abner Zhou"
