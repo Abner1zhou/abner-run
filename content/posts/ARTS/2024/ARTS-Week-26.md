@@ -1,5 +1,5 @@
 +++
-title = 'ARTS Week 26'
+title = 'ARTS Week 26, 2024'
 date = 2024-06-25T09:48:14+08:00
 categories = ['ARTS']
 tags = ["数据库", "WDL"]
@@ -7,8 +7,6 @@ author=  "Abner Zhou"
 draft = false
 +++
 ## 1.Algorithm
-
-
 
 ---
 
