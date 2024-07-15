@@ -41,8 +41,6 @@ class Solution:
         return ans
 ```
 
-
-
 ---
 
 ## 2.Review
@@ -51,7 +49,7 @@ class Solution:
 
 可能改变历史的一枪
 
-![IMG_1712](https://aiit-backup.oss-cn-shanghai.aliyuncs.com/images/2024/07/1e7178cc3e7cfa6232435a6f791a0968-1e7178cc3e7cfa6232435a6f791a0968-IMG_1712.HEIC)
+![IMG_1712](https://aiit-backup.oss-cn-shanghai.aliyuncs.com/images/2024/07/ee26e48ddd5b9c8bf50015ea9b27b3db-IMG_1712.jpg)
 
 ---
 
