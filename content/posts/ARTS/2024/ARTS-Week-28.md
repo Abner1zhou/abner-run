@@ -47,11 +47,19 @@ class Solution:
 
 ## 2.Review
 
+[Shooting conspiracies trend on X as Musk endorses Trump](https://www.theverge.com/2024/7/13/24198049/trump-x-shooting-conspiracy-theories-trending)
 
+可能改变历史的一枪
+
+![IMG_1712](https://aiit-backup.oss-cn-shanghai.aliyuncs.com/images/2024/07/1e7178cc3e7cfa6232435a6f791a0968-1e7178cc3e7cfa6232435a6f791a0968-IMG_1712.HEIC)
 
 ---
 
 ## 3.Tip
+
+[CF-Workers-docker](https://github.com/Abner1zhou/CF-Workers-docker.io)
+
+通过Cloudflare Worker搭建免费的docker hub加速器
 
 ---
 
