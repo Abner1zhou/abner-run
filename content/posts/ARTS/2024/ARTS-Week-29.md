@@ -4,7 +4,7 @@ date = 2024-07-15T10:38:34+08:00
 categories = ['ARTS']
 tags = ["oss", "云计算"]
 author=  "Abner Zhou"
-draft = true
+draft = false
 +++
 ## 1.Algorithm
 
@@ -48,11 +48,14 @@ CPU产品表上的主要参数是：架构、主频、睿频（Intel）、核数
 
 但是！很多CPU主要参数几乎相同，那么他们的性能是否也一样？如何判断他们的性能？可以通过哪一个指标来量化比较这些CPU？
 
-由于架构的演进，同一个计算任务可能会变的跟快，比如一次乘法运算从30个时钟周期降低到10个时钟周期。同时缓存大小、速度的改变也会加速CPU的运算效率。
+由于架构的演进，同一个计算任务可能会变的跟快，比如一次乘法运算从30个时钟周期降低到10个时钟周期。IPC(Instructions per clock)，新的CPU能够在一个时钟周期内运行更多的指令。同时缓存大小、速度的改变也会加速CPU的运算效率。
+
+新的制程、架构也会优化CPU的能耗，相同的功率下的计算能力更强。有些CPU也会针对特定的任务做优化，比如加入针对图像、视频处理的计算单元。
 
 同时我们也应该关注编译器的迭代更新，如果编译器是针对这个CPU架构开发的，那么它编译出来的代码能够最大效率的利用这个CPU的性能。
 
-目前而言，我们可以通过MIPS (millions of instructions per second) and FLOPS (floating point operations per second)来判断一个CPU的计算能力
+目前而言，我们可以通过MIPS (millions of instructions per second) and FLOPS (floating point operations per second)来判断一个CPU的计算能力。我们可以查看CPU天梯图，看一下跑分结果 [Multiple CPU Systems
+](https://www.cpubenchmark.net/multi_cpu.html)
 
 ---
 
