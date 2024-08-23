@@ -2,7 +2,7 @@
 title = 'ARTS Week 29, 2024'
 date = 2024-07-15T10:38:34+08:00
 categories = ['ARTS']
-tags = ["oss", "云计算"]
+tags = ["oss", "云计算", "Mobile"]
 author=  "Abner Zhou"
 draft = false
 +++
