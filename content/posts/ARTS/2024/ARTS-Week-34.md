@@ -4,7 +4,8 @@ date = 2024-08-23T09:09:52+08:00
 categories = ['ARTS']
 tags = ["Linux"]
 author=  "Abner Zhou"
-draft = true
+draft = false
+
 +++
 ## 1.Algorithm
 
