@@ -4,9 +4,17 @@ date = 2024-12-06T14:31:57+08:00
 categories = ['ARTS']
 tags = [""]
 author=  "Abner Zhou"
-draft = true
+draft = false
 +++
 ## 1.Algorithm
+
+[999. 可以被一步捕获的棋子数](https://leetcode.cn/problems/available-captures-for-rook/description/)
+
+根据题意模拟即可：
+
+遍历棋盘确定白色车的下标，用 (st,ed) 表示。
+
+模拟车移动的规则，朝四个基本方向移动，直到碰到卒或者白色象或者碰到棋盘边缘时停止，用 cnt 记录捕获到的卒的数量。
 
 ---
 
@@ -39,6 +47,14 @@ WHERE NOT EXISTS (SELECT FROM addresses a WHERE a.user_id = u.id);
 ---
 
 ## 3.Tip
+
+目前大模型应用开发已经非常方便了。以阿里的通义千问为例，选择好对应的模型，输入提示词就可以创建一个简单的应用
+
+![qwen_craete_app](https://aiit-backup.oss-cn-shanghai.aliyuncs.com/images/2024/12/d6d6ec5eb97099a233e40f7b5ee7a40d-d6d6ec5eb97099a233e40f7b5ee7a40d-image-20241206165107247.png)
+
+发布以后就可以通过API直接调用，比如这个翻译任务，可以先用Python将html拆解成小段，然后输入给大模型来翻译，效果非常的好。
+
+这也是第一次尝试使用大模型的api，对比chat的方式，api能够更加高效的执行重复性的任务。
 
 ---
 

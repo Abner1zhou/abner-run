@@ -4,7 +4,7 @@ date = 2024-12-06T16:33:52+08:00
 categories = ["运维"]
 tags = ["Linux"]
 author=  "Abner Zhou"
-draft = true
+draft = false
 +++
 
 ## 把账号加到`sudo`组里面
