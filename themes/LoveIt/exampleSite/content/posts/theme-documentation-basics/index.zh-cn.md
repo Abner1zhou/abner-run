@@ -147,6 +147,12 @@ hasCJKLanguage = true
 hugo new posts/first_post.md
 ```
 
+以指定的模板创建一篇文章
+
+```bash
+hugo new content --kind tutorials articles/something.md
+```
+
 通过添加一些示例内容并替换文件开头的标题, 你可以随意编辑文章.
 
 {{< admonition >}}
