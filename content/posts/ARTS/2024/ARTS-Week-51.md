@@ -18,6 +18,24 @@ draft = true
 
 所以我们可以选择借助VS Code的Dev Container插件连接到服务器上进行开发。
 
+需要注意的是Linux的ssh-agent只能同时存在一个进程，否则就会出错。
+
+```bash
+ps -ax | grep 'ssh-agent -s'
+```
+
+如果存在多个进程，那么需要kill掉多余的进程。
+
+```bash
+pkill -9 ssh-agent
+```
+
+或者使用
+
+```bash
+killall ssh-agent
+```
+
 ---
 
 ## 3.Tip
@@ -29,3 +47,7 @@ All weeks are starting on Monday and ending on Sunday.
 ---
 
 ## 4.Share
+
+TODO 占个坑，写一下最近对于大模型应用开发的一些思考。
+
+基于书《大模型应用开发极简入门：基于GPT-4和ChatGPT》
