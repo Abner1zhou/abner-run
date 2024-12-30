@@ -4,9 +4,35 @@ date = 2024-12-23T10:16:17+08:00
 categories = ['ARTS']
 tags = [""]
 author=  "Abner Zhou"
-draft = true
+draft = false
 +++
 ## 1.Algorithm
+
+[3046. 分割数组](https://leetcode.cn/problems/split-the-array/description/)
+
+
+```python
+class Solution:
+    def isPossibleToSplit(self, nums: List[int]) -> bool:
+        nums1 = []
+        nums2 = []
+        nums = sorted(nums)
+        for num in nums:
+            if num not in nums1:
+                nums1.append(num)
+            elif num not in nums2:
+                nums2.append(num)
+            else:
+                return False
+        return True
+        
+```
+
+```python
+class Solution:
+    def isPossibleToSplit(self, nums: List[int]) -> bool:
+        return max(Counter(nums).values()) <= 2
+```
 
 ---
 
@@ -40,9 +66,28 @@ killall ssh-agent
 
 ## 3.Tip
 
-为了每周记录ARTS方便，快速的查询这是本年的第几周，可以同问这个网址[Week Numbers for 2024](https://www.epochconverter.com/weeks/2024)。
+1. 为了每周记录ARTS方便，快速的查询这是本年的第几周，可以同问这个网址[Week Numbers for 2024](https://www.epochconverter.com/weeks/2024)。
 
-All weeks are starting on Monday and ending on Sunday.
+    All weeks are starting on Monday and ending on Sunday.
+
+2. Debian12 静态路由设置
+
+    ```text
+    auto ens18
+    iface ens18 inet dhcp
+
+    auto ens19
+    iface ens19 inet static
+            address 10.0.114.48/24
+            up ip route add 192.168.0.0/16 via 10.0.114.1
+            down ip route del 192.168.0.0/16 via 10.0.114.1
+            up ip route add 10.0.0.0/16 via 10.0.114.1
+            down ip route del 10.0.0.0/16 via 10.0.114.1
+    ```
+
+    up 表示，接口up的时候创建这条路由
+
+    down表示，接口down的是偶删除该路由
 
 ---
 
