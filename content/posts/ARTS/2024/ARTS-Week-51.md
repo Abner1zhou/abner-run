@@ -1,5 +1,5 @@
 +++
-title = 'ARTS Week 51'
+title = 'ARTS Week 51, 2024'
 date = 2024-12-23T10:16:17+08:00
 categories = ['ARTS']
 tags = [""]
