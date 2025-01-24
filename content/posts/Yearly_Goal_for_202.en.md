@@ -38,4 +38,9 @@ draft = false
 
 - Run 1200km in a year
 - Full marathon under 4 hours
+- 8 pack abs
 
+## Other
+
+- Learn English
+  - Write blog in English
