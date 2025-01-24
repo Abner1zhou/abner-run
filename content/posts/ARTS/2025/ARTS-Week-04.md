@@ -32,6 +32,8 @@ class Solution:
 
 ## 2.Review
 
+
+
 ---
 
 ## 3.Tip
@@ -78,3 +80,7 @@ truncate -s 0 /var/lib/docker/containers/*/*-json.log
 ---
 
 ## 4.Share
+
+[Linux Interview Questions](https://labex.io/interview-questions/linux)
+
+Linux 面试题
