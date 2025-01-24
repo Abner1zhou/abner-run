@@ -4,9 +4,26 @@ date = 2025-01-15T14:52:27+08:00
 categories = ['ARTS']
 tags = [""]
 author=  "Abner Zhou"
-draft = true
+draft = false
 +++
 ## 1.Algorithm
+
+[49. Group Anagrams](https://leetcode.cn/problems/group-anagrams/description/)
+
+**思路**：
+
+将字符串排序后作为键，将字符串作为值，存入dict中
+
+**代码**：
+
+```Python3
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        d = defaultdict(list)
+        for s in strs:
+            d[tuple(sorted(s))].append(s)
+        return list(d.values())
+```
 
 ---
 

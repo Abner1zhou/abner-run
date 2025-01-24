@@ -1,5 +1,5 @@
 +++
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+title = '{{ replace .File.ContentBaseName "-" " " | title }}, 2025'
 date = {{ .Date }}
 categories = ['ARTS']
 tags = [""]
