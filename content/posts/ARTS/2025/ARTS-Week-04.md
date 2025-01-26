@@ -32,7 +32,11 @@ class Solution:
 
 ## 2.Review
 
+[What is the Resolute Desk?](https://www.whitehousehistory.org/questions/what-is-the-resolute-desk-and-where-did-it-come-from)
 
+Resolute Desk是美国总统的办公桌，放在白宫的总统办公室（Oval Office）。它是由19世纪时英国皇家海军舰艇——坚定号经改造制作而成的。在1880年由维多利亚女王赠予当时的美国总统。
+
+![Resolute Desk](https://aiit-backup.oss-cn-shanghai.aliyuncs.com/images/2025/01/fcf2097a662d8777b432d1554306d5ee-202501261715396.png)
 
 ---
 
