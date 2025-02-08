@@ -81,6 +81,7 @@ before_script:
   - until docker info; do sleep 1; done
   - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
 ```
+
 ### HEALTHCHECK TCP PORT
 
 在设置service的时候，增加一个`HEALTHCHECK_TCP_PORT`操作
