@@ -4,7 +4,7 @@ date = 2025-02-05T09:56:28+08:00
 categories = ['ARTS']
 tags = ["AGI", "LLM"]
 author=  "Abner Zhou"
-draft = true
+draft = false
 +++
 ## 1.Algorithm
 
