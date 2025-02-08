@@ -1,7 +1,7 @@
 +++
 title = 'Kubernetes开发环境的选择'
 date = 2025-02-07T17:12:12+08:00
-categories = ["运维"]
+categories = ["DevOps"]
 tags = ["Kubernetes"]
 author=  "Abner Zhou"
 draft = false

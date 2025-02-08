@@ -1,7 +1,7 @@
 +++
 title = 'Migrate RAID to new server'
 date = 2024-07-18T10:06:16+08:00
-categories = ["运维"]
+categories = ["DevOps"]
 tags = ["Server"]
 author=  "Abner Zhou"
 draft = false

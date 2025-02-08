@@ -1,7 +1,7 @@
 +++
 title = '聊一下Nas的数据安全'
 date = 2024-09-10T09:56:37+08:00
-categories = ["运维"]
+categories = ["DevOps"]
 tags = [""]
 author=  "Abner Zhou"
 draft = false

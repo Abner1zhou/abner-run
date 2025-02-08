@@ -1,7 +1,7 @@
 +++
 title = 'vCenter通过修改主机配置文件来重置ESXi主机root密码'
 date = 2024-06-12T14:29:02+08:00
-categories = ["运维"]
+categories = ["DevOps"]
 tags = ["VMware", "ESXi"]
 author=  "Abner Zhou"
 draft = false

@@ -1,7 +1,7 @@
 +++
 title = 'Postgresql_backup'
 date = 2024-07-13T21:26:10+08:00
-categories = ["运维"]
+categories = ["DevOps"]
 tags = ["数据库", "PostgreSQL"]
 author=  "Abner Zhou"
 draft = false

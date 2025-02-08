@@ -1,7 +1,7 @@
 +++
 title = '离线安装Docker'
 date = 2024-09-09T16:17:41+08:00
-categories = ["运维"]
+categories = ["DevOps"]
 tags = ["Linux", "Docker"]
 author=  "Abner Zhou"
 draft = false

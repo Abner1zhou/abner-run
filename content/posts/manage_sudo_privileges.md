@@ -1,7 +1,7 @@
 +++
 title = '管理sudo权限'
 date = 2024-12-06T16:33:52+08:00
-categories = ["运维"]
+categories = ["DevOps"]
 tags = ["Linux"]
 author=  "Abner Zhou"
 draft = false

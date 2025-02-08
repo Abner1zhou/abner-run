@@ -1,7 +1,7 @@
 +++
 title = 'Minikube入门'
 date = 2025-02-07T17:02:03+08:00
-categories = ["运维"]
+categories = ["DevOps"]
 tags = ["Docker", "Kubernetes"]
 author=  "Abner Zhou"
 draft = false

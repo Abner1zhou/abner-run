@@ -2,7 +2,7 @@
 title = 'SSH Tunnel 端口转发'
 date = 2024-06-05
 draft = false
-categories = ["运维"]
+categories = ["DevOps"]
 tags = ["Linux"]
 mermaid = true
 author=  "Abner Zhou"

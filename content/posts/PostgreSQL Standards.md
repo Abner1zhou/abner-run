@@ -2,7 +2,7 @@
 title = 'PostgreSQL开发规范'
 date = 2024-06-12T10:01:10+08:00
 draft = false
-categories = ["运维"]
+categories = ["DevOps"]
 tags = ["数据库", "PostgreSQL"]
 author=  "Abner Zhou"
 +++
