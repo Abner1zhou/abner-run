@@ -42,8 +42,6 @@ class Solution:
 
 参考：[分享｜从集合论到位运算，常见位运算技巧分类总结！ - 力扣（LeetCode）](https://leetcode.cn/circle/discuss/CaOJ45/)
 
-
-
 ```python
 sub = s
 while True:
